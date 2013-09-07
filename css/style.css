@@ -461,6 +461,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endC
     background: url('../images/logo_linkedin_med_grey_trans_64x16_v1.png') no-repeat ;
 }
 
+.main-content {
+    padding-top:90px;
+}
+
 
 
 
