@@ -16,25 +16,27 @@ a:hover {
     color:#069;
 }
 
-input {
+input:not([type=submit]):not([type=file]) {
     height:22px;
 }
 
 
-input , textarea {
+input:not([type=submit]):not([type=file]), textarea {
     border: 1px solid #dadada;
 }
 
-input:focus,textarea:focus { 
+
+
+input:not([type=submit]):not([type=file]):focus,textarea:focus { 
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
-}
+ }
 
 
 .error {
     color:red;
-    padding:5px 5px 5px 5px;
+    /*padding:5px 5px 5px 5px;*/
     font-weight:bold;
 }
 
@@ -43,7 +45,7 @@ input:focus,textarea:focus {
     height:40px;
     margin-left:8px;
     width:960px;
-}
+} 
 
 .hidden {
     display:none;
@@ -387,7 +389,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endC
 
 
 .footer-useragreement {
-    width: 460px;
+    width: 480px;
     margin-top:20px;
     margin-bottom:30px;
 }
@@ -463,6 +465,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endC
 
 .main-content {
     padding-top:80px;
+}
+
+#joinNow{
+	margin-top:20px;
+	margin-left:82px;
 }
 
 
