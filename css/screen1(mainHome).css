@@ -4,7 +4,7 @@
 .middle-upper {
     
     padding-left:8px;
-    margin-bottom:40px;
+    padding-bottom:40px;
 }
 
 .middle-upper-left-part {
@@ -79,43 +79,19 @@ padding: 8px 0 10px 68px;
     border-bottom-right-radius:6px;
     zoom:1;
     z-index:111;
-    padding:1px 38px;
-    min-height:237px;
+    padding:0 10px 0 35px;
+    min-height:239px;
 }
-    .joinIn-box-bottom #submit {
-        margin-top:17px;
-        margin-left:82px;
-    }
+    
 
 
-    .joinIn-box-bottom div {
-        display:inline-block;
-    }
+    
 
-#form-input {
-    width:150px;
-}
 
-    #form-input input {
-        margin-top:12px;
-        margin-bottom:3px;
-        margin-left:6px;
-        width:179px;
-        height:22px;
-    }
-
-.joinIn-box-bottom #form-labels label{
-    display:block;
-    text-align:right;
-    line-height:2.9;
-    color:#333;
-    font-weight:bold;
-    font-size:13px;
-}
 
 #info {
     float:right;
-    width:160px;
+    width:188px;
     color:#666;
     font-size:11px;
     margin-top:-3px;
@@ -124,12 +100,12 @@ padding: 8px 0 10px 68px;
 
 
 .btn-tertiary:hover {
-background: #5D8329;
-background: -moz-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);
-background: -o-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #94bd5b), color-stop(5%, #94bd5b), color-stop(5%, #649f15), color-stop(100%, #5d8329));
-background: linear-gradient(top, #94bd5b 0%,#94bd5b 1px,#649f15 1px,#5d8329 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endColorstr='#5D8329',GradientType=0 );
+    background: #5D8329;
+    background: -moz-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);
+    background: -o-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #94bd5b), color-stop(5%, #94bd5b), color-stop(5%, #649f15), color-stop(100%, #5d8329));
+    background: linear-gradient(top, #94bd5b 0%,#94bd5b 1px,#649f15 1px,#5d8329 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endColorstr='#5D8329',GradientType=0 );
 }
 
 .btn-tertiary  {
@@ -160,7 +136,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endC
 .joinIn-box-bottom #already {
     font-size:11px;
     color:black;
-    margin-left:82px;
+    margin-left:85px;
     margin-top:7px;
 }
 
@@ -253,4 +229,34 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endC
     font-size:11px;
 }
 
+#join-form-main {
+    padding-top:6px;
+}
+
+#joinNow{
+	margin-top:17px;
+	margin-left:85px;
+}
+
+#join-form-main label {
+    display:inline-block;
+    line-height:2.9;
+    width:75px;
+    text-align:right;
+    color:#333;
+    font-weight:bold;
+    font-size:13px;
+    margin-right:6px;
+}
+
+#join-form-main .join-form-input-boxes {
+    display:inline-block;
+    width:150px;
+}
+
+    #join-form-main .join-form-input-boxes input {
+        width:181px;
+        line-height:1.4;
+        margin: 3px 7px 0 0;
+    }
 
