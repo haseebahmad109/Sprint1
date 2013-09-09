@@ -1,0 +1,47 @@
+﻿body {
+    background: url(../images/texture_grain_200x200_v2.png);
+}
+
+.middle-wrap {
+   width:805px;
+   margin:0 auto;
+}
+
+#black-logo {
+    margin:8px 10px 0 4px;
+    float:left;
+}
+
+.menu-ul {
+    float:right;
+}
+
+.menu-ul li{
+    font-size:11px;
+    color:#666;
+    line-height:39px;
+}
+
+.white-box {
+    background-color:white;
+    border:1px solid #ccc;
+}
+
+#container {
+    padding:15px;
+}
+
+.global-error-box {
+    background: #fff5cc url('../images/sprite_global_v8.png') no-repeat 7px -723px;
+}
+
+#alert-message {
+    margin: 0 0 15px;
+    padding: 6px 7px 6px 35px;
+    overflow: hidden;
+    min-height: 28px;
+}
+    #alert-message p {
+        padding-left:5px;
+        padding-top:5px;
+    }

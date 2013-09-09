@@ -11,11 +11,13 @@ $(document).ready(function(){
 	    $("menu a").css("background-color", "");
 	});
 
-	$("submit-join-form-main-page").click(function () {
-	    if ("errors are present") {
-	        $(".joinIn-box-bottom .form-labels label").css("line-height","4.2");
+	$("#submit-join-form-main-page").click(function () {
+	    if ($("#firstName").val() == "") {
+	        $("#error-global").removeClass("hidden");
+	        $("#error-global div p").html("<b>Please enter first name</b>");
 	        return false;
-	    } else
+	    }
+	    else
 	        return true;
 	});
 
