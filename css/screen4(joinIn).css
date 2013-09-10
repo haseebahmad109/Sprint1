@@ -48,10 +48,12 @@
 
 
 .join-in-header {
-
     background:url(../images/bg_arrow_foursided_4a99c0_34x34.png) no-repeat bottom left;
-    padding-bottom:1px;
-    background-position-x:109px;
+    /* padding-bottom:1px;
+    background-position:2px 109px; */
+	margin-bottom: 5px;
+	padding-bottom: 11px;
+	background-position: 108px 32px;
 }
 
 .join-in-header h1 {
