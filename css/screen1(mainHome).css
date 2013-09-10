@@ -1,6 +1,10 @@
 ﻿body {
 }
 
+#global-error-box-container {
+    padding-top:90px;
+}
+
 .middle-upper {
     
     padding-left:8px;
@@ -261,15 +265,7 @@ padding: 8px 0 10px 68px;
     }
 
 
-<<<<<<< HEAD
-
- 
-=======
-#global-error-box-container {
-    padding-top:90px;
-}
-
 #error-global {
     margin-bottom:15px;
 }
->>>>>>> 5aecb2f2712f85fbffb60a0cedf219906d6403fc
+
