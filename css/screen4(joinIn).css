@@ -48,29 +48,24 @@
 
 
 .join-in-header {
-/*padding-bottom: 11px;*/
-background-image:  url('../images/bg_blue_19x63.png'); 
 
--webkit-border-radius: 5px;
-border-radius: 5px;
-padding: 16px 18px;
-background: #00679a;
-background: -moz-linear-gradient(top, #91cce7 0%, #00679a 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #91cce7), color-stop(100%, #00679a));
-/*margin-left: 108px;*/
-
-padding-bottom: 11px;
-background: transparent url('images/bg_arrow_foursided_4a99c0_34x34.png') no-repeat bottom left;
-margin-left: 108px;
-
+    background:url(../images/bg_arrow_foursided_4a99c0_34x34.png) no-repeat bottom left;
+    padding-bottom:1px;
+    background-position-x:109px;
 }
 
-h1 {
-display: block;
-font-size: 2em;
--webkit-margin-before: 0.67em;
--webkit-margin-after: 0.67em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
-font-weight: bold;
+.join-in-header h1 {
+    display: block;
+    font-weight:normal;
+    font-size: 18px;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color:white;
+    background:url(../images/bg_blue_19x63.png) repeat-x  bottom left;
+    line-height:23px;
+   -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 16px 18px;
 }

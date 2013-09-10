@@ -13,7 +13,7 @@
 
 .sign-in-white-box {
     width:510px;
-    height:170px;
+    
     margin:0 auto;
     margin-top:13px;
     background-color:white;
@@ -98,16 +98,14 @@
     width: auto;
 }
 
-
-<<<<<<< HEAD
 span.error {
    
     font-weight:bold;
 color: #900;
 }
-=======
-#error-box-global {
+
+#e-box {
     margin-bottom:31px;
     margin-top:13px;
 }
->>>>>>> 5aecb2f2712f85fbffb60a0cedf219906d6403fc
+
