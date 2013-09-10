@@ -99,8 +99,15 @@
 }
 
 
+<<<<<<< HEAD
 span.error {
    
     font-weight:bold;
 color: #900;
 }
+=======
+#error-box-global {
+    margin-bottom:31px;
+    margin-top:13px;
+}
+>>>>>>> 5aecb2f2712f85fbffb60a0cedf219906d6403fc
