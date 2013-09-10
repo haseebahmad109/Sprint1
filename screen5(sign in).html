@@ -43,7 +43,7 @@
             <div id="main-heading-container" >
                 <h1>Sign in to LinkedIn</h1>
             </div>
-            <div class="error-box" style="margin-bottom:31px;margin-top:13px;">
+            <div id="e-box" class="error-box hidden" style="margin-bottom:31px;margin-top:13px;">
                 <div class="error-message-box">
                     <p></p> 
                 </div>
@@ -53,20 +53,20 @@
                     <div class="sign-in-white-box-container">
                         <label>Email address:</label>
                         <div class="input-box">
-                            <span class="error"></span>
-                            <input type="email" />
+                            <span id="email_err" class="error"></span>
+                            <input id="e-field" type="email" />
                             <div class="clear"></div>
                         </div>
                         <label>Password:</label>
                         <div class="input-box">
-                            <span class="error"></span>
-                            <input type="password" />
+                            <span id="pass_err" class="error"></span>
+                            <input id="p-field" type="password" />
                             <a id="forgot-password" href="#">Forgot password?</a>
                             <div class="clear"></div>
                         </div>
                         <label style="visibility:hidden">emptylabel</label>
                         <div class="submit-button-sign-in-container input-box">
-                            <input class="btn-primary" type="submit" value="Sign In" />
+                            <input id="submit-Signin" class="btn-primary" type="submit" value="Sign In" />
                             or <a href="#">Join LinkedIn</a>
                         </div>
                     </div>
@@ -97,7 +97,8 @@
     </footer>  
      
 	<!--Scripts-->
-	<script src="javascript/jquery.js" ></script>
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/jquery_5.js"></script>
 	<script src="javascript/script.js" ></script>
 	<!----------->
 </body>
