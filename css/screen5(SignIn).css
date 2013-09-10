@@ -97,3 +97,9 @@
     vertical-align: top;
     width: auto;
 }
+
+
+#error-box-global {
+    margin-bottom:31px;
+    margin-top:13px;
+}

@@ -233,4 +233,6 @@ menu a:hover{
         font-size:11px;
     }
 
-
+.hide {
+    visibility:hidden;
+}
