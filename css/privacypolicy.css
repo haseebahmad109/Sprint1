@@ -1,0 +1,118 @@
+﻿body {
+    background:url(../images/texture_grain_200x200_v2.png);
+}
+
+.left-text p{
+    color: #333;
+    font-size: 16px;
+    vertical-align: baseline;
+}
+
+.right-text p {
+    margin-bottom: 10px;
+    font-size:13px;
+    color: #999;
+}
+
+.whole_container {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    width:974PX;
+}
+
+.whole_container h1 {
+    font-weight: bold;
+    line-height: 26px;
+    color: #000;
+    font-size: 32px;
+    vertical-align: baseline;
+}
+
+.whole-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin: 30px 0 25px;
+    vertical-align: middle;
+}
+
+.whole-container h3 {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #000;
+    vertical-align:baseline;
+}
+
+#bodyHeader {
+    background:url(../images/texture_hero_974x409_v2.png);
+}
+
+.description {
+    padding-top:30px;
+}
+
+    .description p {
+        font-size: 13px;
+        line-height: 17px;
+        color: #333;
+        font-weight: normal;
+        padding-top: 15px;
+    }
+
+.left-description {
+    padding-left:30px;
+    float:left;
+    width:441px;
+    clear:both;
+}
+
+.right-description iframe {
+    width: 372px;
+    height: 208px;
+    margin-left: 92px;
+}
+
+.menu-privacyPolicy {
+    padding: 45px 0 30px;
+    margin-left:41px;
+}
+
+    .menu-privacyPolicy a {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 18px;
+        color: #000;
+        display: block;
+        width: 100%;
+        padding-top: 62px;
+        text-align: center;
+        overflow: hidden;
+        float: left;
+        width: 150px;
+        margin-left:33px;
+    }
+
+    .menu-privacyPolicy .firsta {
+        margin-left:0;
+    }
+
+#_introduction {
+    background:url(../images/icon_intro_79x49_v1.png) 35px 0 no-repeat;
+}
+
+#_information {
+    background:url(../images/icon_infocollected_44x49_v1.png) 55px 0 no-repeat;
+}
+
+#_Uses_and_sharing {
+    background:url(../images/icon_usessharingpersinfo_61x49_v1.png) 55px 0 no-repeat;
+}
+
+#_choices {
+    background:url(../images/icon_choicesoblig_42x49_v1.png) 65px 0 no-repeat;
+}
+
+#_ImportantInfo {
+    background:url(../images/icon_importantinfo_48x49_v1.png) 52px 0 no-repeat;
+}
