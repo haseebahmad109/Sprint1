@@ -26,9 +26,9 @@
     <div class="main-body">
         <div class="white-box middle-wrap">
             <div id="container">
-                <div class="global-error-box">
+                <div id="error-global" class="global-error-box hidden">
                     <div id="alert-message">
-                        <p><b>asd</b></p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="join-in-header">
@@ -39,30 +39,30 @@
                         <form>
                             <label>First Name:</label>
                             <div>
-                                <span class="error"></span>
-                                <input type="text" />
+                                <span id="f_name-error" class="error"></span>
+                                <input id="firstName" type="text" />
                             </div>
                             <label>Last Name:</label>
                             <div>
-                                <span class="error"></span>
-                                <input type="text" />
+                                <span id="l_name-error" class="error"></span>
+                                <input id="lastName" type="text" />
                             </div>
                             <label>Email:</label>
                             <div>
-                                <span class="error"></span>
-                                <input type="email" />
+                                <span id="e-error" class="error"></span>
+                                <input id="Email" type="email" />
                             </div>
                             <label>New Password:</label>
                             <div>
-                                <span class="error"></span>
-                                <input type="password" />
+                                <span id="p-error" class="error"></span>
+                                <input id="Pass" type="password" />
                             </div>
                             <label class="hide empty">empty label</label>
                             <div class="small-text-gray">
                                 6 or more characters
                             </div>
                             <div id="submit-button">
-                                <input class="btn-tertiary" type="submit" value="Join LinkedIn" /> *
+                                <input id="submit-join-form-main-page" class="btn-tertiary" type="submit" value="Join LinkedIn" /> <span title="By clicking Join LinkedIn, you are indicating that you have read, understood, and agree to LinkedIn's User Agreement and Privacy Policy">*</span>
                             </div>
                         </form>
                         <p>Already on LinkedIn? <a href="screen5(sign in).html">Sign in</a></p>
@@ -73,6 +73,7 @@
                             <a  class="fb" href="#">
                                 <span class="fb_text">Sign up with Facebook</span>
                             </a>
+                            <span title="By clicking Join LinkedIn, you are indicating that you have read, understood, and agree to LinkedIn's User Agreement and Privacy Policy">*</span>
                         </p>
                     </div>
 
@@ -94,78 +95,3 @@
 	<!----------->
 </body>
 </html>
-
-
-
-
-
-
-<!----------------------------------------------------->
-
- <!--<div id="qqqqqq" >
-                    <div class="content_part">
-                    
-                        
-                        <form>
-
-                        <label id="fname">First Name:</label>
-                        <div class="input-box">
-                            <span ></span>
-                            <input  type="text" />
-                            <div class="clear"></div>
-                        </div>
-                        <label id="lname">Last Name:</label>
-                        <div class="input-box">
-                            <span ></span>
-                            <input  type="text" />
-                           
-                            <div class="clear"></div>
-                        </div>
-                                               
-                        <label id="email_exception">Email:</label>
-                        <div class="input-box">
-                            <span ></span>
-                            <input  type="text" />
-                            <div class="clear"></div>
-                        </div>
-                        <label id="pass_exception">New Password:</label>
-                        <div class="input-box">
-                            <span ></span>
-                            <input id="pa"  type="text" />
-                        <div id="extra_line">6 or more characters</div>     
-                            <div class="clear"></div>
-                        </div>
-                        
-                        <p id="joinNow"><input id="submit-join-form-main-page" class="submit btn-tertiary" type="submit" value="Join LinkedIn" /> <span>*</span></p>
-                         
-                        <p id="register-custom-nav" >
-                                Already on LinkedIn? <a href="#">Sign in</a>
-                </p>   
-                         
-                    </form>
-
-                        </div>
-
-                    </div>-->
-                  <!--  <div  class="rightside_part">
-
-                        <div id="material">
-
-                            <!--<p class="handwritten">Save time by using your Facebook account to sign up for LinkedIn.</p>
-                       --> 
-                            <!---<img src=".\images\Untitled.png"/>
-
-                        </div>
-
-                        <p class="actions">
-                            <a  class="fb" href="#">
-                                <span class="fb_text">Sign up with Facebook</span>
-                            </a>
-
-                        </p>
-
-                        </div>
-
-                <p id="agreement">
-            * By joining LinkedIn, you agree to LinkedIn's <a target="_blank" href="http://www.linkedin.com/static?key=user_agreement">User Agreement</a>, <a target="_blank" href="http://www.linkedin.com/static?key=privacy_policy">Privacy Policy</a> and <a target="_blank" href="http://www.linkedin.com/legal/cookie-policy">Cookie Policy</a>
-  </p>-->

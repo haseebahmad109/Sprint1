@@ -26,14 +26,6 @@ $(document).ready(function () {
 	$("#submit-join-form-main-page").click(function () {
 	        
 	    var match=true;
-
-	    
-
-	    
-
-	    
-
-
 	        if ($("#firstName").val() == "") {
 
 	            $("#f_name-error ").html("Please enter a first name.");
@@ -42,7 +34,7 @@ $(document).ready(function () {
 	            match=false;
 	        }
 	         if ($("#lastName").val() == "") {
-	            $("#l_name-error ").html("Please enter a last name.");
+	            $("#l_name-error").html("Please enter a last name.");
 	            $("#error-global").removeClass("hidden");
 	            $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
 	            match = false;
@@ -69,8 +61,8 @@ $(document).ready(function () {
 	             }
 	             else if (!validateEmail(use)) {
 	                 $("#e-error ").html("Please enter a valid email address.");
-                 $("#error-global").removeClass("hidden");
-                 $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
+                     $("#error-global").removeClass("hidden");
+                     $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
                 
                  match = false;
              }
