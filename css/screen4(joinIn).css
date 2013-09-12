@@ -25,6 +25,7 @@
 .white-box {
     background-color:white;
     border:1px solid #ccc;
+    overflow:hidden;
 }
 
 #container {
@@ -49,11 +50,11 @@
 
 .join-in-header {
     background:url(../images/bg_arrow_foursided_4a99c0_34x34.png) no-repeat bottom left;
-    /* padding-bottom:1px;
-    background-position:2px 109px; */
+    padding-top:3px;
+    margin-top:-14px;
 	margin-bottom: 5px;
 	padding-bottom: 11px;
-	background-position: 108px 32px;
+	background-position: 114px 48px;
 }
 
 .join-in-header h1 {
@@ -71,3 +72,219 @@
     border-radius: 5px;
     padding: 16px 18px;
 }
+
+#qqqqqq {
+width: 58%;
+float:left;
+margin-top:-10px;
+
+}
+
+
+.form_part {
+
+width:775px;
+overflow:auto;
+}
+
+div {
+display:block;
+}
+
+.content_part {
+
+width:auto;
+overflow: auto;
+zoom: 1;
+margin: 10px 0 25px 0;
+border-right: 1px solid #ccc;
+    
+
+}
+
+
+.rightside_part {
+
+    width:42%;
+    float:right;
+margin-top:15px;
+
+}
+
+#material {
+text-align:center;
+
+}
+
+.actions {
+
+margin-top:10px;
+margin-left:5px;
+}
+
+.handwritten
+{
+
+    font-size: 21px;
+font-weight: normal;
+font-family: LazyDogRegular;
+color: #333;
+margin: 1.4em 0 .7em;
+font-size: 21px;
+letter-spacing: .02em;
+line-height: 1.1em;
+font-style: italic;
+
+}
+.input-box {
+    
+    margin-left: 5px;
+    
+    display:inline;
+    margin-bottom:10px;    
+    
+    
+    }
+
+.input-box input {
+border: 1px solid #999;
+outline: none;
+padding: 2px 3px;
+background-color: #fff;
+margin-bottom:10px;
+width:267px;
+
+}
+ #pa {
+    width:265px;
+
+    }
+
+.content_part label {
+
+font-weight:bold;
+margin-bottom:10px;
+}
+
+#fname {
+padding-left:48px;
+
+} 
+
+#lname {
+padding-left:49px;
+
+}
+
+#email_exception {
+padding-left:80px;
+
+}
+
+#pass_exception {
+padding-left:23px;
+
+}
+#extra_line {
+padding-left:23px;
+margin-top: -9px;
+margin-left: 106px;
+font-size: 11px;
+color: #666
+}
+
+.btn-tertiary:hover {
+    background: #5D8329;
+    background: -moz-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);
+    background: -o-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #94bd5b), color-stop(5%, #94bd5b), color-stop(5%, #649f15), color-stop(100%, #5d8329));
+    background: linear-gradient(top, #94bd5b 0%,#94bd5b 1px,#649f15 1px,#5d8329 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endColorstr='#5D8329',GradientType=0 );
+}
+
+.btn-tertiary  {
+    background: #69A219;
+    background: -moz-linear-gradient(top, #afd47b 0, #afd47b 1px, #8bc03f 1px, #69a219 100%);
+    background: -o-linear-gradient(top, #afd47b 0, #afd47b 1px, #8bc03f 1px, #69a219 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #afd47b), color-stop(5%, #afd47b), color-stop(5%, #8bc03f), color-stop(100%, #69a219));
+    background: linear-gradient(top, #afd47b 0%,#afd47b 1px,#8bc03f 1px,#69a219 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AFD47B', endColorstr='#69A219',GradientType=0 );
+    border-color: #693;
+    color: #fff !important;
+    font-weight: bold;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.35;
+    overflow: visible;
+    padding: 3px 10px 3px;
+    text-decoration: none !important;
+margin-left: 130px;
+margin-top: -3px;
+}
+
+
+#register-custom-nav{
+margin-top: 15px;
+clear: both;
+zoom: 1;
+font-size: 13px;
+line-height: 17px;
+color: #333;
+font-weight: normal;
+margin-left: 127px;
+}
+
+
+.fb {
+color: #069;
+background: url('../images/sprite_fb_icon_22.png') 0 -44px no-repeat;
+display: inline-block;
+padding: 0 0 0 1px;
+outline: none;
+margin-bottom: 10px;
+text-decoration:none;
+margin-left:74px;
+}
+
+
+.fb_text {
+
+font-family: Arial,sans-serif;
+text-decoration:none;
+
+}
+
+.fb .fb_text {
+background: url('../images/sprite_fb_icon_22.png');
+border-top: 1px solid #879ac0;
+border-bottom: 1px solid #1a356e;
+color: #fff;
+display: block;
+_display: inline-block;
+font-weight: bold;
+font-size: 11px;
+padding: 2px 6px 3px 6px;
+margin: 1px 0px 0 21px;
+height: 14px;
+text-decoration:none;
+
+
+}
+
+#agreement {
+clear: both;
+border-top: 1px solid #ccc;
+color: #555;
+padding-top: 15px;
+text-align: center;
+font-size: 11px;
+color: #666
+
+}
+
