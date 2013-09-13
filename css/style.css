@@ -68,7 +68,7 @@ input:not([type=submit]):not([type=file]):focus,textarea:focus {
 	background-image:-moz-linear-gradient(top, #696969 0%,#3f3f3f 100%);
 	background-image:-o-linear-gradient(top, #696969 0%,#3f3f3f 100%);
 	background-image:linear-gradient(top, #696969 0%,#3f3f3f 100%);
-	height:42px
+	height:42px;
 }
 
 .header-style {
@@ -83,7 +83,7 @@ input:not([type=submit]):not([type=file]):focus,textarea:focus {
 	z-index: 100;
 	height: 42px;
 	position: fixed;
-	width: 100%;
+	width:100%;
 }
 
 .wrap-middle{
@@ -235,4 +235,12 @@ menu a:hover{
 
 .hide {
     visibility:hidden;
+}
+
+
+@media (max-width: 980px) {
+    .header-style {
+        position:static;
+        width:990px;
+    }
 }
