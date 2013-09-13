@@ -142,6 +142,10 @@ ul {
     color:#999;
 }
 
+    ul li {
+        margin-left:40px;
+    }
+
 .left-text {
     display:inline-block;
     width:277px;
