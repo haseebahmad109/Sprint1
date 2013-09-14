@@ -48,7 +48,7 @@
 
         if ($("#p-field").val() == "")
         {
-            $("#pass_err").html("Please enter a value.");
+            $("#pass_err").html("Please enter a Password.");
             $("#e-box").removeClass("hidden");
             $(".error-message-box p").html("<b>There were one or more errors in your submission. Please correct the marked fields below.</b>");
             match = false;
