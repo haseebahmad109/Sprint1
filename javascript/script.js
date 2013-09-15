@@ -33,12 +33,15 @@ $(document).ready(function () {
 	            $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
 	            match=false;
 	        }
+	        else $("#f_name-error ").html(" ");
+
 	         if ($("#lastName").val() == "") {
 	            $("#l_name-error").html("Please enter a last name.");
 	            $("#error-global").removeClass("hidden");
 	            $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
 	            match = false;
-	        }
+	         }
+	         else $("#l_name-error ").html(" ");
 
 	         if ($("#Email").val() == "") {
 	             $("#e-error ").html("Please enter a valid email address");
@@ -65,7 +68,8 @@ $(document).ready(function () {
                      $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
                 
                  match = false;
-             }
+	             }
+	             else $("#e-error ").html(" ");
               
 	             } 
 
@@ -90,7 +94,8 @@ $(document).ready(function () {
 	                 $("#error-global div p").html("<b>Please correct the marked field(s) below.</b>");
 	    
 	                 match = false;
-	             }	         
+	             }
+	             else $("#p-error ").html(" ");
 	         }
 
 	         

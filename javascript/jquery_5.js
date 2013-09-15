@@ -12,15 +12,16 @@
 
   
     $("#submit-Signin").click(function () {
-    
-        var op = true;
+   
 
+        var match = true;
        
         if($("#e-field").val()=="")
         {
             $("#email_err").html("Please enter a value.");
+            $("#e-box").removeClass("hidden");
             $(".error-message-box p").html("There were one or more errors in your submission. Please correct the marked fields below.");   
-            op = false;
+            match = false;
         }
         else {
             var use = $("#e-field").val();
@@ -40,6 +41,7 @@
                
                 match = false;
             }
+            else $("#email-err ").html(" ");
 
         }
 
@@ -53,9 +55,10 @@
             $(".error-message-box p").html("<b>There were one or more errors in your submission. Please correct the marked fields below.</b>");
             match = false;
         
-            op = false;
+            
         }
-        else {
+        else
+        {
             var p = $("#p-field").val();
 
             if (p.length < 6) {
@@ -65,12 +68,15 @@
 
                 match = false;
             }
+            else $("#pass_err").html(" ");
+
+            
         }
 
 
-        if (op == true)
+        if (match == true)
             return true;
-        else return false;
+         return false;
 
     
     });
