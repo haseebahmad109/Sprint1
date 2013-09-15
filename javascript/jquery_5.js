@@ -20,7 +20,7 @@
         {
             $("#email_err").html("Please enter a value.");
             $(".error-message-box p").html("There were one or more errors in your submission. Please correct the marked fields below.");   
-            op = false;
+            match = false;
         }
         else {
             var use = $("#e-field").val();
